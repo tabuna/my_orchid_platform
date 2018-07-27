@@ -92,6 +92,13 @@ class Post extends Many
                 ->title('Name Articles')
                 ->help('Article title'),
 
+            Field::tag('wysiwyg')
+                 ->name('body3')
+                 ->required()
+                 ->theme('modern')
+                 ->title('Name Articles')
+                 ->help('Article title'),
+
             Field::tag('picture')
                 ->name('picture')
                 ->width(500)
